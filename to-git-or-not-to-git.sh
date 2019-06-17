@@ -1,5 +1,5 @@
 #! /bin/bash
 
-var=$( curl -s https://api.github.com/users/SuperSidick | jq '.id')
+var=$( curl -s https://api.github.com/users/rezANick | jq '.id')
 
 echo $var 
